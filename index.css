@@ -25,7 +25,7 @@ body {
 input {
     border: none;
     outline: none;
-    border-bottom: 3px solid rgb(223,142,0);
+    border-bottom: 3px solid rgb(223, 142, 0);
     border-radius: 15px 0 15px 0;
     padding: 12px;
     width: 280px;
@@ -43,7 +43,7 @@ input:focus {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding:30px;
+    padding: 30px;
 }
 
 .city-name {
@@ -52,27 +52,31 @@ input:focus {
     font-weight: 500;
     margin-bottom: 8px;
 }
+
 .city-date {
     color: white;
     font-size: 21px;
     margin-bottom: 8px;
 }
-.temp{
-    color:white;
-    font-size:100px;
+
+.temp {
+    color: white;
+    font-size: 100px;
     font-weight: bolder;
-    margin:40px 0;
-    text-shadow:2px 10px black;
+    margin: 40px 0;
+    text-shadow: 2px 10px black;
 }
-.weather{
-    color:white;
+
+.weather {
+    color: white;
     font-size: 35px;
     font-weight: 700;
     font-style: italic;
     margin-bottom: 20px;
 }
-.high-low-temp{
-    color:white;
+
+.high-low-temp {
+    color: white;
     font-size: 21px;
     font-weight: 500;
 
